@@ -1,0 +1,1771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "447F93C8-32EE-4BD3-A56C-D691FA405C50"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "4652F149-86D3-44A0-97BA-169A22F6517C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "alloc"
+            moduleName = "">
+            <Locations>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 561c94cb98fcf082"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[NSObject alloc]"
+                  moduleName = "libobjc.A.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 145aa24693af280e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[NSHashTable alloc]"
+                  moduleName = "Foundation"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - b3c31258b4ebc3e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[NSMapTable alloc]"
+                  moduleName = "Foundation"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 117c00b77aefa4c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[NSProxy alloc]"
+                  moduleName = "Foundation"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 60c7008273743171"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[NSUserNotification alloc]"
+                  moduleName = "Foundation"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 4dc153c88d6493d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[NSUserNotificationAction alloc]"
+                  moduleName = "Foundation"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 19f382428ab4b404"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[NSBlock alloc]"
+                  moduleName = "CoreFoundation"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - d6b5a32892534d6e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SecNssCoder::alloc(unsigned long)"
+                  moduleName = "Security"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 26f7898e7da77d12"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Security::BlobWrapper::alloc(void const*, unsigned long, unsigned int)"
+                  moduleName = "Security"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - dedc0631c9bff6f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MeCab::ChunkFreeList&lt;char&gt;::alloc(unsigned long)"
+                  moduleName = "libmecab.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 7492ec3dd9a04b4b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MeCab::ChunkFreeList&lt;int&gt;::alloc(unsigned long)"
+                  moduleName = "libmecab.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 300acf6e631cb5bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MeCab::FreeList&lt;MeCab::NBestGenerator::QueueElement&gt;::alloc()"
+                  moduleName = "libmecab.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 6695a5cdfdcc50a5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MeCab::FreeList&lt;mecab_learner_node_t&gt;::alloc()"
+                  moduleName = "libmecab.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 673e713d5ca76575"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MeCab::FreeList&lt;mecab_node_t&gt;::alloc()"
+                  moduleName = "libmecab.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 1f3fcf22d0ba9203"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zhtok::ObjectPool&lt;zhtok::HypothesisSet&gt;::alloc()"
+                  moduleName = "libChineseTokenizer.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - cbbc3e0897a047ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zhtok::ObjectPool&lt;zhtok::Hypothesis&gt;::alloc()"
+                  moduleName = "libChineseTokenizer.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - dca926ab7caea34a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zhtok::ObjectPool&lt;zhtok::Word&gt;::alloc()"
+                  moduleName = "libChineseTokenizer.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 7d0fada8d460ab1f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zhtok::ObjectPool&lt;zhtok::LatticeWord&gt;::alloc()"
+                  moduleName = "libChineseTokenizer.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - fc3c807582d279a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[ABDeprecatedObject alloc]"
+                  moduleName = "AddressBook"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 35d7aaa9bf0a58e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CA::CG::Queue::alloc(unsigned long)"
+                  moduleName = "QuartzCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 3cd2233d62b3edd2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLDeviceFeatureQueries alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 1fea5b1cad6786f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLCommandQueueDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 791e33776c3729d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLTextureDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 8743aee777a2d9a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLRenderPassDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - e4448623378023b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLRenderPassColorAttachmentDescriptorArray alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 63262ef6e1a18db0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLRenderPassColorAttachmentDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 80e2567b4c50a8c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLRenderPassDepthAttachmentDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - aa6f3297065104e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLRenderPassStencilAttachmentDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - eb79740b9760b2ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLRenderPipelineDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 89ec7d4f5bb8e217"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLRenderPipelineColorAttachmentDescriptorArray alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - a1a16655b71e392a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLPipelineBufferDescriptorArray alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - faa5c87f1ee03d4c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLVertexDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - ae7912fc571cb264"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLVertexBufferLayoutDescriptorArray alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 342e377509bcc88d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLVertexAttributeDescriptorArray alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 1765b5c1ab8ec160"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLVertexBufferLayoutDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - a85acd9fa310b69"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLVertexAttributeDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 3f25aed639eb0313"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLRenderPipelineColorAttachmentDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - a3b4ac25d081ecb0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLVertexAttribute alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 6d94fa7c8be693f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLDepthStencilDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - b7de7cd1206692f1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLStencilDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 304c19d78eb08bf3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLSamplerDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - a0ba1afb2f250b69"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLFunctionConstantValues alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 92f72ebd720d2a6a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLComputePipelineDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - b9e95e5321e05d5f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLFunctionConstant alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 539ca686b86e255"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLType alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 211edf24d45fd2aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLArgument alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 66f9d855d9777f85"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLTileRenderPipelineColorAttachmentDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - b6785ca3bc38cc79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLTileRenderPipelineColorAttachmentDescriptorArray alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - e05b8634f508ec9e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLTileRenderPipelineDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 6fc9261b7653509c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLBufferLayoutDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 552829e988e2f3e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLBufferLayoutDescriptorArray alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - c7ae99c0b9580715"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLAttributeDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 8ee042c43fd52cf9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLAttributeDescriptorArray alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 390c4ea91d8ba3ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLStageInputOutputDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 12f8db7812b5d556"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLPipelineBufferDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 6dce12dfa382810d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLIndirectArgumentDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - f992ea1133fb4983"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLArgumentDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 9552e4c954bea996"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLIntersectionFunctionTableDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 8f28f1b9d037054b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLIntersectionFunctionTableDescriptorInternal alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 1294a413319c5a72"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLComputePassSampleBufferAttachmentDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - c31a0b049ea26a76"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLComputePassSampleBufferAttachmentDescriptorArray alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - c2f44f86a0123ef5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLComputePassDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - dbf4c4170d235227"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLCounterSampleBufferDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 59a1a77b541c07e2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLMotionEstimatorCapabilities alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - a728d2e89dd480e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLMotionEstimationPipelineDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 3964f7e6d73ec64a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLHeapDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - c52bf8d9ab794eb8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLVisibleFunctionTableDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 9f32041d7705427d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLVisibleFunctionTableDescriptorInternal alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 42bb0e389f10d632"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLCompileOptions alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - f78fc3095c70a3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLAttribute alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 6a1e4f2d06ed1292"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLFunctionReflection alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 3576cd9b4f5303f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLRenderPassSampleBufferAttachmentDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - f68c5729ae2c5ee8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLRenderPassSampleBufferAttachmentDescriptorArray alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 324635d92f619306"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLComputePipelineReflection alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 24abb17694235604"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLResourceStatePassSampleBufferAttachmentDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 99dd93b4ec0b29f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLResourceStatePassSampleBufferAttachmentDescriptorArray alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 6777af5a92f24d59"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLResourceStatePassDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - ad2a2fd5072f0cc0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLStructType alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - c06514d78ffd46d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLPointerType alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - e0641b65eb2e6982"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLTextureReferenceType alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 595f419fbd5fb308"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLStructMember alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - b61f5db8ccc27049"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLArrayType alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 6c37a530a39bba38"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLRenderPipelineReflection alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - d4ab97f6ee390ede"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLLinkedFunctions alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 23e295fc9262ff3b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLLinkedFunctionsInternal alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - aacb8b4fe19e23cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLBlitPassSampleBufferAttachmentDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 6cf2513cf10b3bc1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLBlitPassSampleBufferAttachmentDescriptorArray alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 8be3065d198efa2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLBlitPassDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 1db154153d169041"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLSharedEventListener alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 5efac80c65cbe886"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLFunctionDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 7bbe75a6dbbc70fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[MTLCommandBufferDescriptor alloc]"
+                  moduleName = "Metal"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - ae4569cde0239ec6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[NSPasteboard alloc]"
+                  moduleName = "AppKit"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - e1bbf7718011e957"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[_NSTaggedPointerColor alloc]"
+                  moduleName = "AppKit"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - e42dc054c10443c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[CIConstColor alloc]"
+                  moduleName = "CoreImage"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 34d3aabdb398c655"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CVCGDisplayLink::alloc(__CFAllocator const*)"
+                  moduleName = "CoreVideo"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 80db685ad727835f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CVObject::alloc(unsigned long, __CFAllocator const*, unsigned long, unsigned long)"
+                  moduleName = "CoreVideo"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - a0eedaf9e5bd777"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CVPixelBufferBacking::alloc(__CFAllocator const*)"
+                  moduleName = "CoreVideo"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 8b4d5e9f538634c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CVPixelBuffer::alloc(__CFAllocator const*)"
+                  moduleName = "CoreVideo"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 129690f05279ca23"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CVMetalTextureCache::alloc(__CFAllocator const*)"
+                  moduleName = "CoreVideo"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 25819fdd32f42ebd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CVLockingBunchPair::alloc(__CFAllocator const*)"
+                  moduleName = "CoreVideo"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 7688abb19c802267"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CVPixelBufferMetalTextureBacking::alloc(__CFAllocator const*)"
+                  moduleName = "CoreVideo"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 18ec5f812e0ff58"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CVMetalTexture::alloc(__CFAllocator const*)"
+                  moduleName = "CoreVideo"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 6038e3720b1ff06f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CVPixelBufferPool::alloc(__CFAllocator const*)"
+                  moduleName = "CoreVideo"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 13d1948783d29627"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CVLocklessBunchPair::alloc(__CFAllocator const*)"
+                  moduleName = "CoreVideo"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - e8ef8dfab53f2617"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CVOpenGLESTexture::alloc(__CFAllocator const*)"
+                  moduleName = "CoreVideo"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 66736a8e9dff2ed4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CVDataBufferPool::alloc(__CFAllocator const*)"
+                  moduleName = "CoreVideo"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 2fc9d9ec3fe8cffc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CVDataBufferBacking::alloc(__CFAllocator const*)"
+                  moduleName = "CoreVideo"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 921f6c0610530f36"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CVDataBuffer::alloc(__CFAllocator const*)"
+                  moduleName = "CoreVideo"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 8466cf3ca34670e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CVOpenGLBuffer::alloc(__CFAllocator const*)"
+                  moduleName = "CoreVideo"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - afcfc092625dcbff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CVPixelBufferOpenGLESTextureBacking::alloc(__CFAllocator const*)"
+                  moduleName = "CoreVideo"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 256321bab76c598d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CVOpenGLTexture::alloc(__CFAllocator const*)"
+                  moduleName = "CoreVideo"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - dabc7984c7b215d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CVDisplayLink::alloc(__CFAllocator const*)"
+                  moduleName = "CoreVideo"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 3f6d79b22ee819fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CVOpenGLESTextureCache::alloc(__CFAllocator const*)"
+                  moduleName = "CoreVideo"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 1e99848e4d252493"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CVOpenGLBufferTextureBacking::alloc(__CFAllocator const*)"
+                  moduleName = "CoreVideo"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 9a0b147c5760ff54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CVOpenGLTextureCache::alloc(__CFAllocator const*)"
+                  moduleName = "CoreVideo"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 9f399f1526e85983"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CVOpenGLBufferPool::alloc(__CFAllocator const*)"
+                  moduleName = "CoreVideo"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - ca22140c38ac2fab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CVOpenGLBufferBacking::alloc(__CFAllocator const*)"
+                  moduleName = "CoreVideo"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - ff2ab449320d141b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CVOpenGLESContext::alloc(__CFAllocator const*)"
+                  moduleName = "CoreVideo"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 8ed6544e5272d17f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CVPixelBufferTextureBacking::alloc(__CFAllocator const*)"
+                  moduleName = "CoreVideo"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - eff26a1ff4ddce71"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CVOpenGLContext::alloc(__CFAllocator const*)"
+                  moduleName = "CoreVideo"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 9a8c7bf6c8beba8f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CADeprecated::CAAutoFree&lt;unsigned char&gt;::alloc(unsigned long, bool)"
+                  moduleName = "AudioToolboxCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 50057c7961a939f1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CADeprecated::CAAutoFree&lt;AudioStreamPacketDescription&gt;::alloc(unsigned long, bool)"
+                  moduleName = "AudioToolboxCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - e596b25c902591a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CADeprecated::CAAutoFree&lt;AudioChannelLayout&gt;::alloc(unsigned long, bool)"
+                  moduleName = "AudioToolboxCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 93942e6b75261bbd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CADeprecated::CAAutoFree&lt;char&gt;::alloc(unsigned long, bool)"
+                  moduleName = "AudioToolboxCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 7a259a54935bb3af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "XAtomicPoolAllocator::alloc()"
+                  moduleName = "AudioToolboxCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 89ee57649b3e36b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CADeprecated::CAAutoFree&lt;AudioFormatListItem&gt;::alloc(unsigned long, bool)"
+                  moduleName = "AudioToolboxCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 7096ee3604b0ca2e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DSPGraph::RingBuffer::alloc(unsigned int, unsigned int, unsigned int, unsigned int, bool)"
+                  moduleName = "AudioToolboxCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 9e301b728e528314"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DSPGraph::SimpleABL::alloc(unsigned int, unsigned int, bool)"
+                  moduleName = "AudioToolboxCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 61e02dd46f724b17"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "caulk::mach::vm_block::alloc(unsigned long, int)"
+                  moduleName = "caulk"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - a15e9b57c42196da"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "XAtomicAllocator::alloc()"
+                  moduleName = "AudioToolbox"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - d3a435594ade415d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[NSPersistentStoreCoordinator alloc]"
+                  moduleName = "CoreData"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 56166af5d015b787"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[NSKnownKeysDictionary alloc]"
+                  moduleName = "CoreData"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 92c5a4a56a237561"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[NSKnownKeysMappingStrategy alloc]"
+                  moduleName = "CoreData"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - a81992418fb7aebc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[NSManagedObjectContext alloc]"
+                  moduleName = "CoreData"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - bd63fd4ce2b94f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[_NSCoreDataTaggedObjectIDFactory alloc]"
+                  moduleName = "CoreData"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 1d2dfc791b9e4453"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[_CDSnapshot alloc]"
+                  moduleName = "CoreData"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 2db8d628994ac957"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[_NSFaultingMutableSet alloc]"
+                  moduleName = "CoreData"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - d5ea2517e38a91c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[NSManagedObject alloc]"
+                  moduleName = "CoreData"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - fa2a77d64060e737"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[_PFBatchFaultingArray alloc]"
+                  moduleName = "CoreData"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - b13095fe36d839b5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[NSKnownKeysDictionary1 alloc]"
+                  moduleName = "CoreData"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - bf8c1c435babf24c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[_NSCoreManagedObjectID alloc]"
+                  moduleName = "CoreData"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - c8c09431035d3823"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[_NSFaultingMutableOrderedSet alloc]"
+                  moduleName = "CoreData"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 304c84ff4abc68e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[_NSCoreDataTaggedObjectID alloc]"
+                  moduleName = "CoreData"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 15b8c280f3bb6d49"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[_NSCoreDataTaggedObjectIDFactory alloc]"
+                  moduleName = "CoreData"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 6aa7be47f9922b79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[NSTemporaryObjectID alloc]"
+                  moduleName = "CoreData"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - df412c04cfc5d169"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[_NSFaultingMutableArray alloc]"
+                  moduleName = "CoreData"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 242e28a4ad95b887"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[NSKnownKeysMappingStrategy1 alloc]"
+                  moduleName = "CoreData"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 355760f65b145b3a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[_PFFetchedResultOrderedSetWrapper alloc]"
+                  moduleName = "CoreData"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 8568b83a6a37dc3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[_PFAbstractString alloc]"
+                  moduleName = "CoreData"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - d4c59ba94f024db7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[_PFCachedNumber alloc]"
+                  moduleName = "CoreData"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 18dfd163eac85ac1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_AnalyticsProcedureInfo* MemPool::alloc&lt;_AnalyticsProcedureInfo&gt;(unsigned int)"
+                  moduleName = "ANECompiler"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 2c388ccbe69a8499"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "unsigned long long* MemPool::alloc&lt;unsigned long long&gt;(unsigned int)"
+                  moduleName = "ANECompiler"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - cf1daa75a5172386"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_AnalyticsData* MemPool::alloc&lt;_AnalyticsData, unsigned long long&gt;()"
+                  moduleName = "ANECompiler"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - cc61274858f50663"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "char* MemPool::alloc&lt;char&gt;(unsigned int)"
+                  moduleName = "ANECompiler"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 6a6fe326a3f70c49"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_AnalyticsData* MemPool::alloc&lt;_AnalyticsData&gt;(unsigned int)"
+                  moduleName = "ANECompiler"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - d4837c57ea8dea41"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_AnalyticsGroupInfo* MemPool::alloc&lt;_AnalyticsGroupInfo&gt;(unsigned int)"
+                  moduleName = "ANECompiler"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 859ba0c190139421"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_AnalyticsLayerInfo* MemPool::alloc&lt;_AnalyticsLayerInfo&gt;(unsigned int)"
+                  moduleName = "ANECompiler"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 8a8ad5723740aaef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_AnalyticsTaskInfo* MemPool::alloc&lt;_AnalyticsTaskInfo&gt;(unsigned int)"
+                  moduleName = "ANECompiler"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 3c5e3991700cfbef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_AnalyticsData* MemPool::alloc&lt;_AnalyticsData, unsigned char&gt;()"
+                  moduleName = "ANECompiler"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 514390ad0468fff8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_AnalyticsProcedureInfo* MemPool::alloc&lt;_AnalyticsProcedureInfo&gt;(unsigned int)"
+                  moduleName = "ANEServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 65a4cd05083a21a0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "unsigned long long* MemPool::alloc&lt;unsigned long long&gt;(unsigned int)"
+                  moduleName = "ANEServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 8681ebbb4bb786bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_AnalyticsData* MemPool::alloc&lt;_AnalyticsData, unsigned long long&gt;()"
+                  moduleName = "ANEServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 85fd6686b655a35a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "char* MemPool::alloc&lt;char&gt;(unsigned int)"
+                  moduleName = "ANEServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 23f3a2e84d57a970"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_AnalyticsData* MemPool::alloc&lt;_AnalyticsData&gt;(unsigned int)"
+                  moduleName = "ANEServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 9d1f3d99042d4f78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_AnalyticsGroupInfo* MemPool::alloc&lt;_AnalyticsGroupInfo&gt;(unsigned int)"
+                  moduleName = "ANEServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - cc07e10f7eb33118"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_AnalyticsLayerInfo* MemPool::alloc&lt;_AnalyticsLayerInfo&gt;(unsigned int)"
+                  moduleName = "ANEServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - c31694bcd9e00fd6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_AnalyticsTaskInfo* MemPool::alloc&lt;_AnalyticsTaskInfo&gt;(unsigned int)"
+                  moduleName = "ANEServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 75c2785f9eac5ed6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_AnalyticsData* MemPool::alloc&lt;_AnalyticsData, unsigned char&gt;()"
+                  moduleName = "ANEServices"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - ec162123ddcf2e40"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "md::FrameAllocator&lt;ggl::RenderItem&gt;::alloc()"
+                  moduleName = "VectorKit"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - e91cf7f4a6e7c2ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ggl::FrameAllocator&lt;ggl::RenderItem&gt;::alloc()"
+                  moduleName = "VectorKit"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 99c55afdae63496c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[_TtCs12_SwiftObject alloc]"
+                  moduleName = "libswiftCore.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 7d1ac983126c55f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(anonymous namespace)::BuddyAllocator::alloc(unsigned long)"
+                  moduleName = "ProactiveSupport"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 53faca55fbaa25d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JSC::UnlinkedStructureStubInfo&amp; WTF::SegmentedVector&lt;JSC::UnlinkedStructureStubInfo, 8ul&gt;::alloc&lt;&gt;()"
+                  moduleName = "JavaScriptCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 7d5cc3ac1f7a2a0b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JSC::UnlinkedCallLinkInfo&amp; WTF::SegmentedVector&lt;JSC::UnlinkedCallLinkInfo, 8ul&gt;::alloc&lt;&gt;()"
+                  moduleName = "JavaScriptCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4652F149-86D3-44A0-97BA-169A22F6517C - 208bd0fef18d8b43"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AABC::alloc(__CFAllocator const*)"
+                  moduleName = "CoreBrightness"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
