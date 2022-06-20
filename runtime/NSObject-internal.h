@@ -137,13 +137,13 @@ struct AutoreleasePoolPageData
     static_assert((AutoreleasePoolEntry){ .ptr = MACH_VM_MAX_ADDRESS }.ptr == MACH_VM_MAX_ADDRESS, "MACH_VM_MAX_ADDRESS doesn't fit into AutoreleasePoolEntry::ptr!");
 #endif
 
-	magic_t const magic;
-	__unsafe_unretained id *next;
-	pthread_t const thread;
-	AutoreleasePoolPage * const parent;
-	AutoreleasePoolPage *child;
-	uint32_t const depth;
-	uint32_t hiwat;
+	magic_t const magic;                // 用来校验 AutoReleasePoolPage 的结构是否完整
+	__unsafe_unretained id *next;       // 8字节 指向最新添加的 autoreleased 对象的下一个位置，初始化时指向begin()
+	pthread_t const thread;             // 8字节 指向当前线程
+	AutoreleasePoolPage * const parent; // 8字节 指向父节点，第一个节点的 parent 值为nil
+	AutoreleasePoolPage *child;         // 8字节 指向子节点，最后一个节点的 child 值为nil
+	uint32_t const depth;               // 4字节 代表深度，从0开始，往后递增1
+	uint32_t hiwat;                     // 4字节 high water mark 最大入栈数量标记
 
 	AutoreleasePoolPageData(__unsafe_unretained id* _next, pthread_t _thread, AutoreleasePoolPage* _parent, uint32_t _depth, uint32_t _hiwat)
 		: magic(), next(_next), thread(_thread),

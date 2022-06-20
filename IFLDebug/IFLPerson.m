@@ -9,4 +9,16 @@
 
 @implementation IFLPerson
 
++ (id)person {
+    return [[IFLPerson alloc] init];
+}
+
++ (id)person1:(IFLPerson *)p {
+    return p;
+}
+
++ (id)test1 {
+    return @"test1..";
+}
+
 @end
